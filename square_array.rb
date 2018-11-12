@@ -1,4 +1,5 @@
 def square_array(array)
   # your code here
-  return array.each { |sq| sq * sq }
+  new arr = array.each { |sq| sq * sq }
+  return arr
 end
